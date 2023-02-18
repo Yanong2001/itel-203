@@ -1,0 +1,74 @@
+<!DOCKTYPE html>
+
+<html>
+	<head>
+		<title>
+		
+			Yanong Form
+		
+		</title>
+	
+	</head>
+	
+	<style>
+		body{
+			background: URL("Sample3.jpg") no-repeat;
+		}
+		
+		form{
+			position: absolute;
+			left: 300px;
+			top: 185px;
+		}
+		
+		#game{
+			position: absolute;
+			
+		}
+		
+		#game1{
+			position: absolute;
+			left: 60px;
+		}
+		
+		#game2{
+			position: absolute;
+			top: 30px;
+		}
+		
+		#game3{
+			position: absolute;
+			top: 30px;
+			left: 60px;
+		}
+		
+	</style>
+	
+	<body>
+		<form>
+			<label style="color: white;"> Username: </label> <br>
+			<input type="text" id="username" name="username"> <br>
+			<label style="color: white;"> Password: </label> <br>
+			<input type="password" id="password" name="password"> <br> <br>
+			<input type="button" name="loginbutton" value="login"> </input>
+			<a href="" style="color: white;"> Forgot password </a> <br>
+		</form>
+		
+		<label id="game" style="color: white;"> Games </label>
+		<select id="game1" name="dropdown"> 
+			<option value="none" selected hidden> </option>
+			<option value="Minecraft"> Minecraft </option>
+			<option value="DOTA 2"> DOTA 2 </option>
+			<option value="Counter Strike"> Counter Strike </option>
+		</select>
+		
+		<label id="game2" style="color: white;"> Music </label>
+		<select id="game3" name="dropdown"> 
+			<option value="none" selected hidden> </option>
+			<option value="Wonderful Tonight"> Wonderful Tonight </option>
+			<option value="Heaven Knows"> Heaven Knows </option>
+			<option value="Lovely"> Lovely </option>
+		</select>
+		
+	</body>
+</html>
